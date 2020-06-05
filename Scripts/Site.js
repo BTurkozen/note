@@ -1,8 +1,8 @@
 ﻿//AngularJS Version
 
 //uygulama başlatıldı.
-var apiUrl = "https://mynoteapi.kod.fun/"
-//var apiUrl = "https://mynoteapi.burakturkozen.com/"
+//var apiUrl = "https://mynoteapi.kod.fun/"
+var apiUrl = "https://mynoteapi.burakturkozen.com/"
 var app = angular.module("myApp", ["ngRoute"]);
 
 app.directive("messages", function () {
